@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/190/trunk/Aspell
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/165/trunk/Aspell/README.txt
+END
+pasdoc_aspell.pas
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/165/trunk/Aspell/pasdoc_aspell.pas
+END
+pasdoc_utils.pas
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/165/trunk/Aspell/pasdoc_utils.pas
+END
+pasdoc_processlinetalk.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/190/trunk/Aspell/pasdoc_processlinetalk.pas
+END
+pasdoc_types.pas
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/165/trunk/Aspell/pasdoc_types.pas
+END

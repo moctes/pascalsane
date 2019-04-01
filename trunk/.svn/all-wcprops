@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/209/trunk
+END
+MainUI.pas
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/209/trunk/MainUI.pas
+END
+ocr.pas
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/207/trunk/ocr.pas
+END
+frmSpell.pas
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/109/trunk/frmSpell.pas
+END
+scanselect.pas
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/167/trunk/scanselect.pas
+END
+scanner.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/167/trunk/scanner.lfm
+END
+historymenu.pas
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/171/trunk/historymenu.pas
+END
+scantwain.pas
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/173/trunk/scantwain.pas
+END
+threshold.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/167/trunk/threshold.lfm
+END
+DjvuUtils.pas
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/193/trunk/DjvuUtils.pas
+END
+scanner.pas
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/167/trunk/scanner.pas
+END
+ocreditor.pas
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/191/trunk/ocreditor.pas
+END
+scansane.pas
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/167/trunk/scansane.pas
+END
+threshold.pas
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/167/trunk/threshold.pas
+END
+OcrivistData.pas
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/207/trunk/OcrivistData.pas
+END
+pageviewer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/192/trunk/pageviewer.pas
+END
+progress.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/157/trunk/progress.lfm
+END
+ocrivist.lpi
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/199/trunk/ocrivist.lpi
+END
+progress.pas
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/157/trunk/progress.pas
+END
+scanutils.pas
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/171/trunk/scanutils.pas
+END
+about.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/197/trunk/about.lfm
+END
+about.pas
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/197/trunk/about.pas
+END
+ocrivist.lpr
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/205/trunk/ocrivist.lpr
+END
+MainUI.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/205/trunk/MainUI.lfm
+END
+scanselect.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/150/trunk/scanselect.lfm
+END
+frmSpell.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/166/trunk/frmSpell.lfm
+END

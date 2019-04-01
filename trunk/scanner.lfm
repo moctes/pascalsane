@@ -1,0 +1,249 @@
+object ScannerForm: TScannerForm
+  Left = 352
+  Height = 339
+  Top = 227
+  Width = 344
+  ActiveControl = PageControl1
+  Caption = 'Scanner settings'
+  ClientHeight = 339
+  ClientWidth = 344
+  OnCreate = FormCreate
+  Position = poMainFormCenter
+  LCLVersion = '1.0.1.3'
+  object OKButton: TBitBtn
+    AnchorSideLeft.Control = PageControl1
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideBottom.Side = asrBottom
+    Left = 135
+    Height = 30
+    Top = 297
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = '&OK'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 281
+    Top = 0
+    Width = 344
+    ActivePage = ScanSheet1
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    TabIndex = 0
+    TabOrder = 1
+    object ScanSheet1: TTabSheet
+      Caption = 'Scanner'
+      ClientHeight = 255
+      ClientWidth = 336
+      object ModeComboBox: TComboBox
+        AnchorSideTop.Control = SourceComboBox
+        AnchorSideTop.Side = asrBottom
+        Left = 156
+        Height = 21
+        Top = 89
+        Width = 166
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Top = 15
+        Enabled = False
+        ItemHeight = 13
+        Style = csDropDownList
+        TabOrder = 1
+      end
+      object ResolutionComboBox: TComboBox
+        AnchorSideTop.Control = ModeComboBox
+        AnchorSideTop.Side = asrBottom
+        Left = 155
+        Height = 21
+        Top = 125
+        Width = 167
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Top = 15
+        ItemHeight = 13
+        Items.Strings = (
+          '200 dpi'
+          '300 dpi'
+          '600 dpi'
+          '1200 dpi'
+        )
+        Style = csDropDownList
+        TabOrder = 2
+      end
+      object Label1: TLabel
+        AnchorSideTop.Control = ModeComboBox
+        AnchorSideTop.Side = asrCenter
+        AnchorSideRight.Control = ModeComboBox
+        Left = 115
+        Height = 14
+        Top = 92
+        Width = 26
+        Anchors = [akTop, akRight]
+        BorderSpacing.Right = 15
+        Caption = 'Color'
+        ParentColor = False
+      end
+      object Label2: TLabel
+        AnchorSideTop.Control = ResolutionComboBox
+        AnchorSideTop.Side = asrCenter
+        AnchorSideRight.Control = ResolutionComboBox
+        Left = 89
+        Height = 14
+        Top = 128
+        Width = 51
+        Anchors = [akTop, akRight]
+        BorderSpacing.Right = 15
+        Caption = 'Resolution'
+        ParentColor = False
+      end
+      object SourceComboBox: TComboBox
+        AnchorSideTop.Control = NameLabel
+        AnchorSideTop.Side = asrBottom
+        Left = 155
+        Height = 21
+        Top = 53
+        Width = 167
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Top = 10
+        ItemHeight = 13
+        Style = csDropDownList
+        TabOrder = 0
+      end
+      object Label8: TLabel
+        AnchorSideTop.Control = SourceComboBox
+        AnchorSideTop.Side = asrCenter
+        AnchorSideRight.Control = SourceComboBox
+        Left = 106
+        Height = 14
+        Top = 56
+        Width = 34
+        Anchors = [akTop, akRight]
+        BorderSpacing.Right = 15
+        Caption = 'Source'
+        ParentColor = False
+      end
+      object NameLabel: TLabel
+        AnchorSideTop.Control = Label9
+        AnchorSideTop.Side = asrBottom
+        Left = 269
+        Height = 14
+        Top = 29
+        Width = 53
+        Anchors = [akTop, akRight]
+        Caption = 'NameLabel'
+        ParentColor = False
+      end
+      object Label9: TLabel
+        AnchorSideLeft.Control = NameLabel
+        Left = 269
+        Height = 14
+        Top = 15
+        Width = 37
+        Caption = 'Device:'
+        ParentColor = False
+      end
+    end
+    object ScanSheet2: TTabSheet
+      Caption = 'Page size'
+      ClientHeight = 255
+      ClientWidth = 336
+      object Label3: TLabel
+        AnchorSideTop.Control = WidthSpinEdit
+        AnchorSideTop.Side = asrCenter
+        AnchorSideRight.Control = WidthSpinEdit
+        Left = 79
+        Height = 14
+        Top = 31
+        Width = 33
+        Anchors = [akTop, akRight]
+        BorderSpacing.Right = 15
+        Caption = 'Width:'
+        ParentColor = False
+      end
+      object Label4: TLabel
+        AnchorSideTop.Control = HeightSpinEdit
+        AnchorSideTop.Side = asrCenter
+        AnchorSideRight.Control = HeightSpinEdit
+        Left = 78
+        Height = 14
+        Top = 69
+        Width = 36
+        Anchors = [akTop, akRight]
+        BorderSpacing.Right = 15
+        Caption = 'Height:'
+        ParentColor = False
+      end
+      object WidthSpinEdit: TSpinEdit
+        Left = 127
+        Height = 21
+        Top = 28
+        Width = 80
+        MaxValue = 1000
+        MinValue = 50
+        OnChange = WidthSpinEditChange
+        TabOrder = 0
+        Value = 50
+      end
+      object HeightSpinEdit: TSpinEdit
+        Left = 129
+        Height = 21
+        Top = 66
+        Width = 78
+        AutoSelect = False
+        MaxValue = 1000
+        MinValue = 50
+        OnChange = HeightSpinEditChange
+        TabOrder = 1
+        Value = 50
+      end
+      object Label5: TLabel
+        AnchorSideLeft.Control = WidthSpinEdit
+        AnchorSideLeft.Side = asrBottom
+        Left = 217
+        Height = 14
+        Top = 31
+        Width = 17
+        BorderSpacing.Left = 10
+        Caption = 'mm'
+        ParentColor = False
+      end
+      object Label6: TLabel
+        AnchorSideLeft.Control = HeightSpinEdit
+        AnchorSideLeft.Side = asrBottom
+        AnchorSideTop.Control = HeightSpinEdit
+        AnchorSideTop.Side = asrCenter
+        Left = 217
+        Height = 14
+        Top = 69
+        Width = 17
+        BorderSpacing.Left = 10
+        Caption = 'mm'
+        ParentColor = False
+      end
+      object PaperFormatBox: TComboBox
+        Left = 71
+        Height = 21
+        Top = 116
+        Width = 136
+        ItemHeight = 13
+        ItemIndex = 2
+        Items.Strings = (
+          'Custom'
+          'A3'
+          'A4'
+          'A5'
+          'B4'
+          'B5'
+          'B6'
+          'Letter'
+          'Executive'
+        )
+        OnChange = PaperFormatBoxChange
+        Style = csDropDownList
+        TabOrder = 2
+        Text = 'A4'
+      end
+    end
+  end
+end

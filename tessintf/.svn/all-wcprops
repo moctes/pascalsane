@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/121/tessintf
+END
+compile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/17/tessintf/compile.sh
+END
+tessintf.pas
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/121/tessintf/tessintf.pas
+END
+tessintf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/121/tessintf/tessintf.cc
+END
+install_libtessintf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/17/tessintf/install_libtessintf.sh
+END
+tessintf.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/121/tessintf/tessintf.h
+END

@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/216/leptonica
+END
+binexpand.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/211/leptonica/binexpand.inc
+END
+skew.inc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/214/leptonica/skew.inc
+END
+pageseg.inc
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/214/leptonica/pageseg.inc
+END
+conncomp.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/212/leptonica/conncomp.inc
+END
+pix1.inc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/214/leptonica/pix1.inc
+END
+pix2.inc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/214/leptonica/pix2.inc
+END
+pix3.inc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/214/leptonica/pix3.inc
+END
+pix4.inc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/214/leptonica/pix4.inc
+END
+morph.inc
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/211/leptonica/morph.inc
+END
+pix5.inc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/214/leptonica/pix5.inc
+END
+pixconv.inc
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/212/leptonica/pixconv.inc
+END
+compare.inc
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/216/leptonica/compare.inc
+END
+LibLeptUtils.pas
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/215/leptonica/LibLeptUtils.pas
+END
+seedfill.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/214/leptonica/seedfill.inc
+END
+affine.inc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/214/leptonica/affine.inc
+END
+arithlow.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/214/leptonica/arithlow.inc
+END
+boxbasic.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/212/leptonica/boxbasic.inc
+END
+writefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/212/leptonica/writefile.inc
+END
+rotate.inc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/214/leptonica/rotate.inc
+END
+pixafunc2.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/212/leptonica/pixafunc2.inc
+END
+arrayaccess.inc
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/214/leptonica/arrayaccess.inc
+END
+enhance.inc
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/212/leptonica/enhance.inc
+END
+binarize.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/216/leptonica/binarize.inc
+END
+bmf.inc
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/216/leptonica/bmf.inc
+END
+edge.inc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/214/leptonica/edge.inc
+END
+graymorph.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/214/leptonica/graymorph.inc
+END
+readfile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/212/leptonica/readfile.inc
+END
+grayquant.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/214/leptonica/grayquant.inc
+END
+colormap.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/212/leptonica/colormap.inc
+END
+colorseg.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/216/leptonica/colorseg.inc
+END
+affinecompose.inc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/214/leptonica/affinecompose.inc
+END
+rotateshear.inc
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/214/leptonica/rotateshear.inc
+END
+baseline.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/212/leptonica/baseline.inc
+END
+bilinear.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/216/leptonica/bilinear.inc
+END
+boxfunc1.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/211/leptonica/boxfunc1.inc
+END
+ptabasic.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/212/leptonica/ptabasic.inc
+END
+adaptmap.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/214/leptonica/adaptmap.inc
+END
+scale.inc
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/214/leptonica/scale.inc
+END
+leptonica.pas
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/216/leptonica/leptonica.pas
+END
+pixarith.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/211/leptonica/pixarith.inc
+END
+rotateorth.inc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/216/leptonica/rotateorth.inc
+END
+morphseq.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/211/leptonica/morphseq.inc
+END
+graphics.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/212/leptonica/graphics.inc
+END
+binreduce.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/216/leptonica/binreduce.inc
+END
+rop.inc
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/211/leptonica/rop.inc
+END
+pdfio.inc
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/211/leptonica/pdfio.inc
+END
+numabasic.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/212/leptonica/numabasic.inc
+END
+pixabasic.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/212/leptonica/pixabasic.inc
+END
+classapp.inc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/213/leptonica/classapp.inc
+END
+textops.inc
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/216/leptonica/textops.inc
+END

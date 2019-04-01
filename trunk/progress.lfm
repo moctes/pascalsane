@@ -1,0 +1,75 @@
+object ProgressForm: TProgressForm
+  Left = 305
+  Height = 240
+  Top = 414
+  Width = 377
+  BorderIcons = []
+  BorderStyle = bsDialog
+  ClientHeight = 240
+  ClientWidth = 377
+  FormStyle = fsSystemStayOnTop
+  OnCloseQuery = FormCloseQuery
+  Position = poOwnerFormCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '1.0.1.3'
+  object ProgressBar: TProgressBar
+    AnchorSideTop.Control = MainTextLabel
+    AnchorSideTop.Side = asrBottom
+    Left = 29
+    Height = 20
+    Top = 76
+    Width = 311
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 18
+    Smooth = True
+    Step = 5
+    TabOrder = 1
+    Visible = False
+  end
+  object ButtonPanel: TPanel
+    Left = 0
+    Height = 56
+    Top = 184
+    Width = 377
+    Align = alBottom
+    BevelOuter = bvNone
+    Caption = 'ButtonPanel'
+    ClientHeight = 56
+    ClientWidth = 377
+    TabOrder = 0
+    object CancelButton: TBitBtn
+      AnchorSideLeft.Control = ButtonPanel
+      AnchorSideLeft.Side = asrCenter
+      Left = 150
+      Height = 30
+      Top = 16
+      Width = 76
+      AutoSize = True
+      Cancel = True
+      DefaultCaption = True
+      Kind = bkCancel
+      OnClick = CancelButtonClick
+      TabOrder = 0
+    end
+  end
+  object MainTextLabel: TLabel
+    Left = 29
+    Height = 18
+    Top = 40
+    Width = 90
+    Caption = 'MainTextLabel'
+    ParentColor = False
+  end
+  object UpdateTextLabel: TLabel
+    AnchorSideTop.Control = MainTextLabel
+    AnchorSideTop.Side = asrBottom
+    Left = 29
+    Height = 18
+    Top = 73
+    Width = 323
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 15
+    Caption = 'UpdateTextLabel'
+    ParentColor = False
+  end
+end
